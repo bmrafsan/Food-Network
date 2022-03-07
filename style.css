@@ -1,0 +1,289 @@
+/* hero section styling  */
+*{
+    margin: 0px;
+    padding: 0%;
+}
+.hero{
+     padding-top: 82px;
+     padding-left: 90px;
+     padding-right: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-text h1{
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: bold;
+     font-size: 60px;
+    line-height: 130%;
+    color: #575757;
+    padding-bottom: 30px;
+}
+.gradeant{
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: bold;
+     font-size: 60px;
+    background: linear-gradient(88.33deg, #FBA24F -7.64%, #FF1E1E 145.94%);
+     
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.hero-text p{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 160%;
+ color: #828282;
+ padding-bottom: 60px;
+
+}
+.hero-text a{
+    background: linear-gradient(88.33deg, #FBA24F -7.64%, #FF1E1E 145.94%);
+    box-shadow: 0px 2px 30px rgba(252, 143, 73, 0.5);
+    border-radius: 100px;
+    padding: 24px 32px;
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 130%;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.hero-img {
+    width: 650.26px;
+    height: 747.23px;
+    padding-bottom: 70px;
+}
+/* about style start  */
+.about{
+position: absolute;
+width: 1440px;
+height: 600px;
+left: 0px;
+top: 902px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+background: rgba(255, 154, 91, 0.1);
+}
+.about-img img{
+    width: 338px;
+    height: 536px;
+    padding-right: 198px;
+    padding-left: 199px;
+    padding-top: 64px;
+}
+.about-text h1{
+font-family:'Montserrat',sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 54px;
+ color: #707070;
+ padding-left: 48px;
+ padding-right: 48px;
+}
+.about-text p{
+font-family:'Montserrat',sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 32px;
+ color: #18191F;
+ padding-top: 32px;
+ padding-right: 0px;
+ padding-left: 48px;
+ padding-bottom: 30px;
+}
+.about-text{
+    width: 540px;
+    height: 246px;
+    padding-top: 127px;
+    padding-right: 165px;
+    padding-bottom: 227px;
+}
+.about-text a{
+font-family:'Montserrat',sans-serif;  
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 130%;
+ color: #FFFFFF;
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
+ position: absolute;
+ text-decoration: none;
+ width: 192px;
+ height: 68px;
+ left: 783px;
+ top: 463px; 
+background: linear-gradient(88.33deg, #FBA24F -7.64%, #FF1E1E 145.94%);
+box-shadow: 0px 2px 30px rgba(252, 143, 73, 0.5);
+border-radius: 100px;
+
+}
+ /* resipies section styling  */
+ .resipies{
+     padding-top: 700px;
+     padding-left: 100px;
+     padding-right: 100px;
+ }
+ .resipies-header h1{
+    font-family:'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+     margin: 0px auto;
+    color: #676767;
+    padding-bottom: 30px;
+ }
+ .resipies-header p{
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    margin: 0px auto;  
+    width: 706px;
+    color: #252525;
+    padding-bottom: 38px;
+    
+ }
+ .resipie1,.resipie2,.resipie3{ 
+    width: 350px;
+    height:  495px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 30px;
+    padding: 20px;
+ }
+ .resipie1 img,.resipie2 img,.resipie3 img{
+    width: 345px;
+    height: 256px;
+    padding-bottom: 40px;
+ }
+ .resipie1 h1,.resipie2
+ h1,.resipie3 h1{
+    font-family: 'Montserrat',sans-serif; 
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 40px;
+    color: #18191F;
+    padding-bottom: 10px;
+    
+ }
+ .resipie1 p,.resipie2 p,.resipie3 p{
+    font-family: 'Montserrat',sans-serif;   
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    color: #18191F;
+     
+ }
+.resipi-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* footer style  */
+.conteiner{
+    max-width:1239px ;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 20px
+}
+
+ .footer{
+     background-color: white;
+     padding-top: 94px;
+     padding-left: 101px;
+     padding-right: 100px;
+     padding-bottom: 92px;
+     width: 1239px;
+    height: 226px;
+    
+ }
+ .row{
+     display: flex;
+      
+     align-items: center;
+   
+ }
+ .footer1{
+    width:18px ; 
+    padding-left: 140px;
+    padding-right: 240px;
+    padding-top: 64px;
+    padding-bottom: 40px;
+    align-items: center;
+    padding-bottom: 64px;
+
+ }
+ .footer1 h1{
+    font-family:'Montserrat',sans-serif;   
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 64px;
+    color: #18191F;
+    padding-bottom: 8px;
+    width: 175px;
+ }
+ .footer1 p{
+    font-family: 'Montserrat',sans-serif; 
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    color: #18191F;
+    text-align: center;
+    margin: 0 auto;
+    width: 175px; 
+       
+ }
+ .last-footer{
+     padding: 40px 150px;
+     background-color: #0B0D17;
+     height: 256px;
+     
+ }
+ .footer-box h1{
+     font-family:'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 41px;
+    color: #5B5B5B;
+    text-align: center;
+    padding-bottom: 37px;
+
+
+
+}
+.max{
+    background: linear-gradient(88.33deg, #FBA24F -7.64%, #FF1E1E 145.94%);
+     
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.footer-box p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #ebe7e7;
+    text-align: center;
+}
