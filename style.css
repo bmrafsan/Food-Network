@@ -61,15 +61,17 @@ line-height: 160%;
 }
 /* about style start  */
 .about{
-position: absolute;
-width: 1440px;
-height: 600px;
-left: 0px;
-top: 902px;
-display: flex;
-justify-content: space-between;
-align-items: center;
-background: rgba(255, 154, 91, 0.1);
+    position: absolute;
+    width: 1440px;
+    height: 600px;
+    left: 0px;
+    top: 902px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url('images/shapes/7.png');
+ 
+
 }
 .about-img img{
     width: 338px;
@@ -77,16 +79,17 @@ background: rgba(255, 154, 91, 0.1);
     padding-right: 198px;
     padding-left: 199px;
     padding-top: 64px;
+ 
 }
 .about-text h1{
-font-family:'Montserrat',sans-serif;
-font-style: normal;
-font-weight: bold;
-font-size: 40px;
-line-height: 54px;
- color: #707070;
- padding-left: 48px;
- padding-right: 48px;
+    font-family:'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 54px;
+    color: #707070;
+    padding-left: 48px;
+    padding-right: 48px;
 }
 .about-text p{
 font-family:'Montserrat',sans-serif;
@@ -94,12 +97,9 @@ font-style: normal;
 font-weight: normal;
 font-size: 18px;
 line-height: 32px;
- color: #18191F;
- padding-top: 32px;
- padding-right: 0px;
- padding-left: 48px;
- padding-bottom: 30px;
+padding-bottom: 30px;
 }
+
 .about-text{
     width: 540px;
     height: 246px;
